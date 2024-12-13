@@ -1,0 +1,61 @@
+.four {
+    padding: 77px 0 123px;
+}
+
+.four-title {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #676770;
+}
+
+.four-subtitle {
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8E8E9C;
+    margin: 17px 0 73px;
+}
+
+.four-btns {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    margin-bottom: 52px;
+}
+
+.four-btn {
+    padding: 1px 30px;
+    background: #92A0AD;
+    border-radius: 4px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.four-btn.active {
+    background: #2E8086;
+}
+
+.four-image {
+    width: 100%
+}
+
+.four-title2{
+    font-size: 31px;
+    text-align: center;
+    color: #676770;
+    margin: 16px 0 14px;
+}
+
+.four-text {
+
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+}

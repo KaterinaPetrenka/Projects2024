@@ -1,0 +1,58 @@
+.second {
+    padding: 184px 0 199px;
+}
+
+.second-title {
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #6989FF;
+    text-align: center;
+}
+
+.second-subtitle {
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #6989FF;
+    text-align: center;
+    margin: 20px;
+}
+
+.second-row {
+    display: flex;
+    column-gap:12px;
+    
+}
+
+.second-card {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #676770;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.second-card-image {
+    width: 150px;
+}
+
+.second-card-title {
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #676770;
+    text-align: center;
+    margin: 20px; 
+}
+
+.second-card-text {
+    padding: 50px;
+    text-align: center;
+    color: #668CAD;
+    /* font-size: 16px;
+    letter-spacing: 4px;
+    color: #676770;
+    text-align: center;
+    margin: 20px;  */
+}

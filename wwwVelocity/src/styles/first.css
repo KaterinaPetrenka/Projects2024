@@ -1,0 +1,35 @@
+.first {
+    padding: 184px 0 199px;
+    background: grey url("../images/3d-rendering-hexagonal-texture-background\ \(1\).jpg") center/cover no-repeat;
+}
+.first-title {
+    font-size: 59px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 186px;
+}
+
+.first-btns {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.first-btn {
+    border: 1px solid #FFFF;
+    border-radius: 4px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFF;
+    background: transparent;
+    padding: 10px 31px 12px;
+    cursor: pointer;
+}
+
+.first-btn.active {
+    background-color: #69B9FF;
+    border: 1px solid #69B9FF;
+}

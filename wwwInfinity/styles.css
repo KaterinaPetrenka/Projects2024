@@ -1,0 +1,127 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 11px 0 24px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #6989FF;
+}
+
+.header-link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #cbee65;
+}
+
+.header-link.active {
+    color: #69B9FF;
+}
+
+.header-links {
+    display: flex;
+    column-gap: 40px;
+}
+
+
+
+.layout {
+    display: grid;
+    grid-template-columns: 140px auto 100px;
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas: 
+        'header header right'
+        'left main right'
+        'left footer chat'
+    ;
+    height: 100vh;
+}
+
+.header {
+    background-color: darkolivegreen;
+    grid-area: header;  
+}
+
+.left {
+    background-color: white;
+    grid-area: left;
+}
+
+.left-list{
+    font-size: 16px;
+    line-height: 20px;
+    color: #45570e;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.left-list-active {
+    color: #0087fd;
+}
+
+.right {
+    background-color: whitesmoke;
+    grid-area: right;
+}
+
+main {
+    background: grey url("./img/images/3d-geometric-abstract-twist-background\ \(1\).jpg") center/cover no-repeat;
+
+}
+
+.main-title {
+    font-size: 54px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #6989FF;
+    padding-left: 400px;
+    padding-top: 60px;
+}
+
+.main-text {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #081130;
+    padding-left: 220px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.main-button {
+    display: block;
+    justify-self: center;
+}
+
+.footer {
+    background-color: darkolivegreen;
+    grid-area: footer;
+}
+
+.chat {
+    background-color: chocolate;
+    grid-area: chat;
+}

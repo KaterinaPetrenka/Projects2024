@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu {
+    display:flex;
+    column-gap: 20px;
+}
+
+.header-title {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #CF404D
+}
+
+.header-link {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #CF404D
+}
+.first-screen {
+    padding: 305px 0 325px;
+    background: url(./img/images/abstract-background-pattern-with-futuristic-design-elements-generative-ai.jpg) center/cover no-repeat;
+}
+
+.first-screen-title {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-bottom: 35px;
+
+}

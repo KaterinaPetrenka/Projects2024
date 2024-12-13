@@ -1,0 +1,53 @@
+.five {
+    padding-bottom: 53px;
+}
+
+.five-row {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.five-card {
+    width: calc(33.3333% - 13.333px);
+}
+
+.five-card-title {
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #676770;
+    margin-bottom: 21px;
+}
+
+.five-card-text {
+    font-size: 14px;
+    line-height: 25px;
+    color: #6A859C;
+}
+
+.flex-card-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+
+.five-card-items {
+    font-size: 13px;
+    color: #668CAD;
+    padding-bottom: 12px;
+    padding-top: 13px;
+    border-bottom:  2px solid #D5D5E0;
+}
+
+.footer {
+    background: black;
+    height: 120px;
+
+}
+
+.footer-text {
+    padding: 50px;
+    text-align: center;
+    color: #668CAD;
+}

@@ -1,0 +1,84 @@
+.three {
+    padding-bottom: 53px;
+    background: black;
+}
+
+
+.three-title {
+    padding-top: 50px;
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #6989FF;
+    text-align: center;
+}
+
+.three-text {
+    padding: 50px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: white;
+    text-align: center;
+}
+
+.three-row {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    column-gap: 100px;
+}
+
+.three-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    width: calc(44.3333% - 14.333px);
+}
+
+.three-card-subtitle {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 21px;
+}
+
+.three-card-text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    color:white;
+}
+
+.three-btns {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.three-card-btn {
+
+    border: 1px solid #FFFF;
+    border-radius: 4px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFF;
+    background: transparent;
+    padding: 10px 31px 12px;
+    cursor: pointer;
+}
+
+.three-card-btn.active {
+    background-color: #69B9FF;
+    border: 1px solid #69B9FF;
+}
+
+.three-card-image {
+    display: block;
+    height: 100px;
+    width: 100px;
+}
